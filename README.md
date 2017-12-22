@@ -1,6 +1,12 @@
+# Para rodar o teste:
+1. Ir para a pasta "app"
+2. Executar: npm install
+3. Executar: npm start
+
+
 # Front-end Engineer no [GuiaBolso](https://www.guiabolso.com.br)
 
-Aqui no [Guiabolso](https://www.guiabolso.com.br) trabalhamos em duplas. Nosso time é multidisciplinar, com foco no produto e na evolução tecnológica dos nossos sistemas. 
+Aqui no [Guiabolso](https://www.guiabolso.com.br) trabalhamos em duplas. Nosso time é multidisciplinar, com foco no produto e na evolução tecnológica dos nossos sistemas.
 
 Em um ambiente descontraído, prezamos pela qualidade e participação ativa dos desenvolvedores na construção da nossa plataforma. Temos um carinho especial pelo usuário, direcionando nossas decisões pela experiência e fazendo constantes ajustes para alinhar os nossos sistemas com as necessidades do mercado.
 
@@ -17,7 +23,7 @@ Você quer trabalhar no GuiaBolso? Vamos te ajudar!
 
 Para você, **front-end engineer** (que é um desenvolvedor de software e não picador de PSD), daremos o caminho das pedras.
 
-Temos um processo seletivo que é dividido em algumas etapas. 
+Temos um processo seletivo que é dividido em algumas etapas.
 
 - O desafio técnico (descrito nesse repositório);
 - Uma conversa com nossa **master blaster equipe técnica de front**;
