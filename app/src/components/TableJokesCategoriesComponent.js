@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import { TableContainer, MainTable} from './TableJokesCategoriesComponentStyles'
 import {
 	Accordion,
-	AccordionItem,
 	AccordionItemTitle,
 	AccordionItemBody,
 } from 'react-accessible-accordion'
@@ -43,16 +42,16 @@ class TableJokesCategories extends Component {
 											<AccordionItemBody>
 												{this.props.joke && this.props.joke && this.props.joke.category && this.props.joke.category[0] === category ?
 													<span>
-														<img src={this.props.joke.icon_url}></img>
+														<img alt={"Chuck Norris face!"} src={this.props.joke.icon_url}></img>
 														<p>{this.props.joke.value}</p>
 													</span>
 													:
 													<p>{ this.state.currentCategory === category ? 'Carregando.. ' : `Click to see a ${category} joke`}</p>
 												}
-										</AccordionItemBody>	
+										</AccordionItemBody>
 									</Accordion>
 								</td>
-							</tr>							
+							</tr>
 						))}
 					</tbody>
         </TableContainer>
